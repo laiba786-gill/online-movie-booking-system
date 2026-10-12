@@ -1,47 +1,52 @@
 Online Movie Booking System
 
-Overview
-
-Online Movie Booking System is a web-based application that allows users to browse movies, watch trailers, view ratings and reviews, and book movie tickets online. The system also includes an admin panel for managing theaters, movies, schedules, and users.
+A web application where users browse movies, watch trailers, read reviews, and book tickets online. It includes an admin panel to manage theaters, movies, show times, and users.
 
 Features
 
-1. User Registration & Login
-2. Browse Movies
-3. View Movie Reviews & Ratings
-4. Watch Movie Trailers
-5. Online Ticket Booking
-6. Multiple Seat Categories (Gold, Platinum, Box)
-7. Admin Dashboard
-8. Theater Management
-9. Movie Management
-10. Show Time Management
-11. User Management
+For users
+- Registration and login
+- Browse movies and watch trailers
+- View ratings and reviews
+- Book tickets online
+- Choose from multiple seat categories (Gold, Platinum, Box)
 
-Technologies Used
+For admins
+- Admin dashboard
+- Theater management
+- Movie management
+- Show time management
+- User management
 
-1. HTML5
-2. CSS3
-3. Bootstrap
-4. JavaScript
-5. jQuery
-6. PHP
-7. MySQL
+Technologies
+PHP, MySQL, HTML5, CSS3, Bootstrap, JavaScript, jQuery
 
-Screenshots
+ Screenshots
+![Screenshot 1](screenShots/Screenshot_14-6-2026_45614_127.0.0.1.jpeg)
+![Screenshot 2](screenShots/Screenshot_14-6-2026_45643_127.0.0.1.jpeg)
+![Screenshot 3](screenShots/Screenshot_14-6-2026_4571_127.0.0.1.jpeg)
+![Screenshot 4](screenShots/Screenshot_14-6-2026_45725_127.0.0.1.jpeg)
+![Screenshot 5](screenShots/Screenshot_14-6-2026_45752_127.0.0.1.jpeg)
+![Screenshot 6](screenShots/Screenshot_14-6-2026_45833_127.0.0.1.jpeg)
+![Screenshot 7](screenShots/Screenshot_14-6-2026_45851_127.0.0.1.jpeg)
+![Screenshot 8](screenShots/Screenshot_14-6-2026_45914_127.0.0.1.jpeg)
+![Screenshot 9](screenShots/Screenshot_14-6-2026_45936_127.0.0.1.jpeg)
+![Screenshot 10](screenShots/Screenshot_14-6-2026_45951_127.0.0.1.jpeg)
 
-Project screenshot folder is also avaliable in it.
+ How to run locally
+1. Install XAMPP and start Apache and MySQL.
+2. Copy this project folder into `htdocs`.
+3. Open phpMyAdmin, create a database named `[database-name]`, and import `[database-file].sql`.
+4. Check the database settings in `[config-file].php`.
+5. Open `http://localhost/[project-folder]` in your browser.
 
-Future Improvements
-
-1.Online Payment Gateway Integration
-
-2.Email Notifications
-
-3.Mobile Responsive Enhancements
-
-4.Seat Selection Interface
+Planned improvements
+- Online payment gateway
+- Email notifications
+- Visual seat selection interface
+- Improved mobile layout
 
 Author
-Laiba David
-Aspiring Full Stack Developer
+**Laiba David**
+GitHub: [github.com/itx-liba](https://github.com/itx-liba)
+Email: libagill987@gmail.com
